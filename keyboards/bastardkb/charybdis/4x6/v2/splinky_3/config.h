@@ -32,6 +32,12 @@
 // #define SPLIT_HAND_PIN_LOW_IS_LEFT  // High -> right, Low -> left.
 
 /* RGB settings. */
+#define SPLIT_LAYER_STATE_ENABLE
+#define RGBLIGHT_SPLIT
+
+/* Combo settings. */
+#define COMBO_TERM 50 // 50ms combo timeout
+
 #define RGB_DI_PIN GP0
 
 /* SPI & PMW3360 settings. */
